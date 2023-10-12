@@ -1,27 +1,40 @@
-# React + TypeScript + Vite
+# CS3 TEST App React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Authors
 
-Currently, two official plugins are available:
+- [@haroldmartinez10](https://github.com/haroldmartinez10)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Run Locally
 
-## Expanding the ESLint configuration
+NOTE:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This application runs on node version v18.18.0 and Vite.
 
-- Configure the top-level `parserOptions` property like this:
+Para correr la aplicación es necesario apuntar al backend de este repo https://github.com/haroldmartinez10/cs3-test-backend , viene incluido el archivo .env para que todo funcione sin problemas (Se que no se hace por seguridad pero al ser una prueba hice caso omiso)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+  npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  cd my-project
+  npm install
+```
+
+Start the server
+
+```bash
+npm run dev
+```
+
+Proyecto funcionando con el Backend:
+
+![Texto Alternativo](nombre_de_la_imagen.png)
