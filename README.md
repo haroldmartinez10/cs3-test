@@ -37,4 +37,4 @@ npm run dev
 
 Proyecto funcionando con el Backend:
 
-![Texto Alternativo](nombre_de_la_imagen.png)
+![Texto Alternativo](front-end-cs3.png)
