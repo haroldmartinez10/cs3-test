@@ -16,6 +16,12 @@ Para correr la aplicación es necesario apuntar al backend de este repo https://
   npm install
 ```
 
+Para hacer test
+
+```bash
+  npm run test
+```
+
 Go to the project directory
 
 ```bash
