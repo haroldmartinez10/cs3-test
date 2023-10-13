@@ -43,6 +43,7 @@ const Navbar = ({
 
   const handleCreateNewTask = async () => {
     handleClose();
+
     const newTask = {
       name: titleInput,
       description: descriptionInput,
@@ -72,6 +73,9 @@ const Navbar = ({
         });
 
         dispatch(fetchTodos());
+
+        setTitleInput("");
+        setDescriptionInput("");
       } catch (error) {
         Swal.fire({
           icon: "error",
