@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 import { store } from "../app/store.tsx";
 
 describe("Accordion", () => {
-  it("should render the ListOfTasks component", () => {
+  it("should render the TextField with label Search Task component", () => {
     const { getByLabelText } = render(
       <Provider store={store}>
         <ListOfTasks selectedValue={"c"} />
