@@ -8,6 +8,7 @@ import { useState } from "react";
 const App: React.FC = () => {
   const { setDarkMode, theme, darkMode } = useTheme();
 
+  //Logica para renderizar si una tarea es a='completada' b='pendiente' c='mostrar todas las tareas'
   const [selectedValue, setSelectedValue] = useState("c");
 
   return (

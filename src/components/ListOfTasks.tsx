@@ -72,7 +72,11 @@ const ListOfTasks = ({ selectedValue }: iProps) => {
           ) {
             return (
               <Grid item xs={6} sm={4} md={3} key={task._id}>
-                <CardTask loadEdit={loadEdit} task={task} />
+                <CardTask
+                  data-testid="card-task"
+                  loadEdit={loadEdit}
+                  task={task}
+                />
               </Grid>
             );
           }
